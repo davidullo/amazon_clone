@@ -23,6 +23,7 @@ $categories--color: hsl(214 27% 20%);
 .category {
   cursor: pointer;
   padding: 5px 10px;
+  border: 1px solid transparent;
   &:hover {
     border: 1px solid white;
   }

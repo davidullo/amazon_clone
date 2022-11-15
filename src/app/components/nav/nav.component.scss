@@ -12,6 +12,7 @@ $btn--orangePressed: hsl(34 99% 60%);
   align-items: flex-end;
   font-size: 0.85rem;
   padding: 10px;
+  border: 1px solid transparent;
   &:hover {
     border: $hover--border;
   }
@@ -35,6 +36,7 @@ $btn--orangePressed: hsl(34 99% 60%);
 }
 
 .left__logo {
+  border: 1px solid transparent;
   &:hover {
     border: $hover--border;
   }
