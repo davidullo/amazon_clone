@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Section } from 'src/app/model/section';
 import { Countries } from 'src/app/model/countries';
+import { Branches } from 'src/app/model/branches';
 import footerSections from '../../../assets/data/footer-sections.json';
 import countries from '../../../assets/data/countries.json';
+import branches from '../../../assets/data/branches.json';
 
 @Component({
   selector: 'app-footer',
@@ -14,8 +16,10 @@ export class FooterComponent implements OnInit {
 
   sections: Section[] = footerSections;
   countries: Countries[] = countries;
+  branches: Branches[] = branches;
 
   ngOnInit(): void {
     console.log(this.sections);
+    console.log(this.branches);
   }
 }

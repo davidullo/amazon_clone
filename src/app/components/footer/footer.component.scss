@@ -85,3 +85,62 @@ hr {
 .footer-bottom {
   background-color: $footer-bottom;
 }
+
+.branches {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+  padding: 20px 0;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.branches__group {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 30px 30%;
+}
+
+.branches__branch {
+  p {
+    color: hsl(0, 0%, 61%);
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.info__credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  margin-bottom: 30px;
+}

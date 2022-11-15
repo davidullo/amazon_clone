@@ -1,87 +1,62 @@
 [
   {
     "id": 1,
-    "country": "Australia",
+    "title": "Amazon Advertising",
+    "description": "Trova, attira e coinvolgi i clienti",
     "path": "#"
   },
   {
     "id": 2,
-    "country": "Brasile",
+    "title": "Amazon Warehouse",
+    "description": "I nostri prodotti usati e ricondizionati",
     "path": "#"
   },
   {
     "id": 3,
-    "country": "Canada",
+    "title": "Amazon Music",
+    "description": "Streaming di milioni di canzoni",
     "path": "#"
   },
   {
     "id": 4,
-    "country": "Cina",
+    "title": "Book Depository",
+    "description": "Libri con spedizione gratuita in tutto il mondo",
     "path": "#"
   },
   {
     "id": 5,
-    "country": "Francia",
+    "title": "AbeBooks",
+    "description": "Libri, arte & articoli da collezione",
     "path": "#"
   },
   {
     "id": 6,
-    "country": "Germania",
+    "title": "Kindle Direct Publishing",
+    "description": "Pubblica i tuoi libri in formato elettronico",
     "path": "#"
   },
   {
     "id": 7,
-    "country": "Giappone",
+    "title": "Audible",
+    "description": "Download Audiolibri",
     "path": "#"
   },
   {
     "id": 8,
-    "country": "India",
+    "title": "Shopbop",
+    "description": "Designer, Marche, Fashion e stile",
     "path": "#"
   },
   {
     "id": 9,
-    "country": "Messico",
+    "title": "Amazon Web Services",
+    "description": "Servizi Cloud Scalabili",
     "path": "#"
   },
   {
     "id": 10,
-    "country": "Paesi/Regioni Bassi",
-    "path": "#"
-  },
-  {
-    "id": 11,
-    "country": "Polonia",
-    "path": "#"
-  },
-  {
-    "id": 12,
-    "country": "Emirati Arabi Uniti",
-    "path": "#"
-  },
-  {
-    "id": 13,
-    "country": "Regno Unito",
-    "path": "#"
-  },
-  {
-    "id": 14,
-    "country": "Spagna",
-    "path": "#"
-  },
-  {
-    "id": 15,
-    "country": "Singapore",
-    "path": "#"
-  },
-  {
-    "id": 16,
-    "country": "Stati Uniti",
-    "path": "#"
-  },
-  {
-    "id": 17,
-    "country": "Turchia",
+    "title": "Amazon Business",
+    "description": "Servizio per clienti business",
     "path": "#"
   }
 ]

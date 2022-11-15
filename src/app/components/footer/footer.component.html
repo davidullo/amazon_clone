@@ -25,5 +25,38 @@
       </div>
     </div>
   </div>
-  <div class="footer-bottom"></div>
+  <div class="footer-bottom">
+    <div class="branches">
+      <div class="branches__group">
+        <div class="branches__branch" *ngFor="let branch of branches">
+          <a href="{{ branch.path }}">
+            <h5>{{ branch.title }}</h5>
+            <p>{{ branch.description }}</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="info__container">
+        <div class="info__link">
+          <a href="#">Condizioni generali di uso e vendita</a>
+        </div>
+        <div class="info__link">
+          <a href="#">Informativa sulla privacy</a>
+        </div>
+        <div class="info__link">
+          <a href="#">Area legale</a>
+        </div>
+        <div class="info__link">
+          <a href="#">Cookie</a>
+        </div>
+        <div class="info__link">
+          <a href="#">Pubblicità definita in base agli interessi</a>
+        </div>
+      </div>
+      <div class="info__credits">
+        <p>© 1996 - 2022 Amazon.com, Inc. o società affilitate</p>
+      </div>
+    </div>
+  </div>
 </footer>
