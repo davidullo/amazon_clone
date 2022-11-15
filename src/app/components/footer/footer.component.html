@@ -1,0 +1,29 @@
+<footer>
+  <div class="footer-upper">
+    <a href="#">Torna su</a>
+  </div>
+  <div class="footer-mid">
+    <div class="sections">
+      <div class="section" *ngFor="let section of sections; let i = index">
+        <h4>{{ section.name }}</h4>
+        <ul>
+          <li *ngFor="let item of section.column">
+            <a href="#">{{ item.title }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="countries">
+      <div class="logo">
+        <img src="../../../assets/img/logo/logo_white.svg" alt="logo" />
+      </div>
+      <div class="countriesBox">
+        <div class="country" *ngFor="let country of countries">
+          <a href="{{ country.path }}">{{ country.country }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"></div>
+</footer>

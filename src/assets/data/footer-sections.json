@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Per conoscerci meglio",
+    "column": [
+      {
+        "id": 1,
+        "category": 1,
+        "title": "Opportunità di lavoro",
+        "path": "#"
+      },
+      {
+        "id": 2,
+        "category": 1,
+        "title": "Informazioni su Amazon",
+        "path": "#"
+      },
+      {
+        "id": 3,
+        "category": 1,
+        "title": "Sostenibilità",
+        "path": "#"
+      },
+      {
+        "id": 4,
+        "category": 1,
+        "title": "AGCM - Impegni Amazon Procedimento PS 11716",
+        "path": "#"
+      },
+      {
+        "id": 5,
+        "category": 1,
+        "title": "Amazon Science",
+        "path": "#"
+      }
+    ]
+  },
+  {
+    "name": "Guadagna con Amazon",
+    "column": [
+      {
+        "id": 6,
+        "category": 2,
+        "title": "Vendi su Amazon",
+        "path": "#"
+      },
+      {
+        "id": 7,
+        "category": 2,
+        "title": "Vendi su Amazin Business",
+        "path": "#"
+      },
+      {
+        "id": 8,
+        "category": 2,
+        "title": "Costruisci e proteggi il tuo marchio",
+        "path": "#"
+      },
+      {
+        "id": 9,
+        "category": 2,
+        "title": "Vendi prodotti Innovative",
+        "path": "#"
+      },
+      {
+        "id": 10,
+        "category": 2,
+        "title": "Diventa affiliato",
+        "path": "#"
+      },
+      {
+        "id": 11,
+        "category": 2,
+        "title": "Logistica di Amazon",
+        "path": "#"
+      },
+      {
+        "id": 12,
+        "category": 2,
+        "title": "Pubblica con noi da indipendente",
+        "path": "#"
+      },
+      {
+        "id": 13,
+        "category": 2,
+        "title": "Promuovi i tuoi prodotti",
+        "path": "#"
+      },
+      {
+        "id": 14,
+        "category": 2,
+        "title": "Ospita un hub Amazon",
+        "path": "#"
+      },
+      {
+        "id": 15,
+        "category": 2,
+        "title": "Scpri di più su Make Money with Us",
+        "path": "#",
+        "special": true
+      }
+    ]
+  },
+  {
+    "name": "Metodi di pagamento Amazon",
+    "column": [
+      {
+        "id": 16,
+        "category": 3,
+        "title": "Metodi di pagamento",
+        "path": "#"
+      },
+      {
+        "id": 17,
+        "category": 3,
+        "title": "Convertitore di Valuta Amazon",
+        "path": "#"
+      },
+      {
+        "id": 18,
+        "category": 3,
+        "title": "Buoni Regalo",
+        "path": "#"
+      },
+      {
+        "id": 19,
+        "category": 3,
+        "title": "Ricarica online",
+        "path": "#"
+      },
+      {
+        "id": 20,
+        "category": 3,
+        "title": "Ricarica in cassa",
+        "path": "#"
+      }
+    ]
+  },
+  {
+    "name": "Bisogno di aiuto?",
+    "column": [
+      {
+        "id": 21,
+        "category": 4,
+        "title": "Visualizza o traccia un ordine",
+        "path": "#"
+      },
+      {
+        "id": 22,
+        "category": 4,
+        "title": "Costi e modalità di spedizione",
+        "path": "#"
+      },
+      {
+        "id": 23,
+        "category": 4,
+        "title": "Amazon Prime",
+        "path": "#"
+      },
+      {
+        "id": 24,
+        "category": 4,
+        "title": "Restituisci o sostituisci articoli",
+        "path": "#"
+      },
+      {
+        "id": 25,
+        "category": 4,
+        "title": "Riciclo",
+        "path": "#"
+      },
+      {
+        "id": 26,
+        "category": 4,
+        "title": "I miei contenutie dispositivi",
+        "path": "#"
+      },
+      {
+        "id": 27,
+        "category": 4,
+        "title": "App Amazon Mobile",
+        "path": "#"
+      },
+      {
+        "id": 28,
+        "category": 4,
+        "title": "Amazon Assistant",
+        "path": "#"
+      },
+      {
+        "id": 29,
+        "category": 4,
+        "title": "Servizio Clienti",
+        "path": "#"
+      },
+      {
+        "id": 30,
+        "category": 4,
+        "title": "IVA e fatturazione",
+        "path": "#"
+      },
+      {
+        "id": 31,
+        "category": 4,
+        "title": "Garanzia legale",
+        "path": "#"
+      }
+    ]
+  }
+]

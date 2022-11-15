@@ -1,0 +1,148 @@
+$nav--smallText: 0.8rem;
+$hover--border: 1px solid white;
+$nav--color: hsl(214 27% 10%);
+$bar--border: hsl(37 28% 63%);
+$btn--orange: hsl(34 99% 70%);
+$btn--orangePressed: hsl(34 99% 60%);
+
+@mixin nav--button {
+  display: flex;
+  cursor: pointer;
+  line-height: 1.1;
+  align-items: flex-end;
+  font-size: 0.85rem;
+  padding: 10px;
+  &:hover {
+    border: $hover--border;
+  }
+}
+
+.nav {
+  display: flex;
+  height: 60px;
+  background-color: $nav--color;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.left {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  gap: 0 4px;
+  align-items: center;
+}
+
+.left__logo {
+  &:hover {
+    border: $hover--border;
+  }
+  img {
+    height: 32px;
+  }
+}
+
+.left__icon {
+  i {
+    font-size: 1.1rem;
+  }
+}
+
+.left__address {
+  @include nav--button();
+  gap: 0 4px;
+}
+
+.right {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.right__account {
+  @include nav--button();
+}
+
+.right__orders {
+  @include nav--button();
+}
+
+.right__checkout {
+  @include nav--button();
+  gap: 0 2px;
+}
+
+.right__icon {
+  i {
+    font-size: 1.8rem;
+  }
+}
+
+.left__upper,
+.right__upper {
+  font-size: $nav--smallText;
+}
+
+.left__bottom,
+.right__bottom {
+  font-weight: bold;
+}
+
+.explore {
+  background-color: white;
+  height: 40px;
+  width: 60%;
+  border-radius: 4px;
+}
+
+.bar {
+  display: flex;
+  height: 100%;
+}
+
+.bar__dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  border-right: 1px solid $bar--border;
+  a {
+    color: hsl(0, 0%, 18%);
+    font-size: $nav--smallText;
+  }
+}
+
+.bar__input {
+  width: 200%;
+}
+
+.bar__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $btn--orange;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 120px;
+  border-left: 1px solid $bar--border;
+  cursor: pointer;
+  &:hover {
+    background-color: $btn--orangePressed;
+  }
+  i {
+    font-size: 1.4rem;
+  }
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  line-height: 2.15rem;
+  border-radius: 0px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}

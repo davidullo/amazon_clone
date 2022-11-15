@@ -1,0 +1,29 @@
+$nav--smallText: 0.8rem;
+$categories--color: hsl(214 27% 20%);
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: $categories--color;
+  color: white;
+  font-size: $nav--smallText;
+}
+
+.menu {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 1.4rem;
+  }
+}
+
+.category {
+  cursor: pointer;
+  padding: 5px 10px;
+  &:hover {
+    border: 1px solid white;
+  }
+}

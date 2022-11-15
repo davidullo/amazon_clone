@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Abbiamo una sorpresa per te",
+    "path": "/assets/img/tiles/1.jpg",
+    "more": "Vedi termini e condizioni"
+  },
+  {
+    "id": 2,
+    "title": "I prodotti del momento in Casa e Cucina",
+    "path": "/assets/img/tiles/2.jpg",
+    "more": "Lasciati ispirare"
+  },
+  {
+    "id": 3,
+    "title": "Extra sconto del 10% su prodotti resi già scontati",
+    "path": "/assets/img/tiles/3.jpg",
+    "more": "Scopri di più su Amazon Warehouse"
+  },
+  {
+    "id": 4,
+    "title": "Informatica",
+    "path": "/assets/img/tiles/5.jpg",
+    "more": "Scopri di più"
+  },
+  {
+    "id": 5,
+    "title": "Preparati per Natale",
+    "path": "/assets/img/tiles/10.jpg",
+    "more": "Scopri il negozio di Natale"
+  }
+]

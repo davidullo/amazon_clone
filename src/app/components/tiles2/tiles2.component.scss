@@ -1,0 +1,110 @@
+.tiles {
+  display: flex;
+  gap: 20px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px 0;
+  padding: 40px 20px;
+  background-color: white;
+  width: 350px;
+  height: 450px;
+}
+
+.tile__img {
+  img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+  }
+}
+
+.tile__link {
+  a {
+    color: hsl(180, 100%, 25%);
+    font-size: 0.8rem;
+    text-decoration: none;
+    &:hover {
+      color: hsl(21, 100%, 43%);
+      text-decoration: underline;
+    }
+  }
+}
+
+.tile--shrink {
+  height: 150px;
+  align-items: center;
+}
+
+.tile__button {
+  background-color: hsl(52, 100%, 50%);
+  color: black;
+  border-radius: 6px;
+  width: 100%;
+  text-align: center;
+  &:hover {
+    background-color: hsl(48, 100%, 50%);
+  }
+  a {
+    display: inline-block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+    padding: 6px 0;
+  }
+}
+
+.img--shrink {
+  align-self: center;
+  img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+}
+
+.tile__offer {
+  font-size: 0.8rem;
+  color: hsl(347, 100%, 32%);
+  span {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 6px;
+    margin-right: 4px;
+    color: white;
+    background-color: hsl(347, 100%, 32%);
+  }
+}
+
+.tile__text {
+  font-size: 0.8rem;
+}
+
+.tile__grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid__row {
+  display: flex;
+  gap: 10px;
+}
+
+.grid__img {
+  img {
+    cursor: pointer;
+  }
+  p {
+    display: inline-block;
+    margin: 0.5px;
+    font-size: 0.7rem;
+  }
+}
