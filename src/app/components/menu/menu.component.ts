@@ -8,7 +8,20 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.testFun();
+  }
+
+  count = 0;
+  isOpen: boolean = false;
+
+  testFun() {
+    console.log(this.count++);
+  }
 
   // SIDEBAR
+  toggleSidebar() {
+    this.isOpen = !this.isOpen;
+    console.log(this.count++);
+  }
 }

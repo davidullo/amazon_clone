@@ -19,7 +19,6 @@ $categories--color: hsl(214 27% 20%);
 }
 
 .category {
-  cursor: pointer;
   padding: 5px 10px;
   border: 1px solid transparent;
   &:hover {
@@ -29,13 +28,13 @@ $categories--color: hsl(214 27% 20%);
 
 .category__btn {
   background-color: $categories--color;
-  border: none;
   color: white;
   z-index: 10;
   display: flex;
   align-items: center;
   gap: 2px;
   cursor: pointer;
+  border: none;
   i {
     font-size: 1.3rem;
   }
@@ -43,15 +42,16 @@ $categories--color: hsl(214 27% 20%);
 
 /* *** SIDEBAR *** */
 
+.closeMenu {
+}
+
 .closeMenu__btn {
-  border: none;
   background-color: transparent;
   color: white;
-  font-size: 3rem;
-  cursor: pointer;
+  font-size: 2.5rem;
   position: absolute;
-  left: 400px;
-  z-index: 12;
+  left: 0px;
+  cursor: pointer;
 }
 
 .sidebar {
@@ -61,6 +61,26 @@ $categories--color: hsl(214 27% 20%);
   position: fixed;
   z-index: 10;
   overflow-y: scroll;
+  transform: translateX(-400px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebarActive {
+  transform: translateX(0);
+}
+
+.buttonActive {
+  transform: translateX(440px);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .sidebar hr {
