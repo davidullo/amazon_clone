@@ -12,6 +12,7 @@ import { TilesComponent } from './components/tiles/tiles.component';
 import { Tiles2Component } from './components/tiles2/tiles2.component';
 import { MiniTileComponent } from './components/mini-tile/mini-tile.component';
 import { MiniSliderComponent } from './components/mini-slider/mini-slider.component';
+import { SideNavDirectionComponent } from './components/menu/side-nav-direction/side-nav-direction.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MiniSliderComponent } from './components/mini-slider/mini-slider.compon
     TilesComponent,
     Tiles2Component,
     MiniTileComponent,
-    MiniSliderComponent
+    MiniSliderComponent,
+    SideNavDirectionComponent
   ],
   imports: [
     BrowserModule,
