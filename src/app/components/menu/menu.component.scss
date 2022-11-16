@@ -43,15 +43,26 @@ $categories--color: hsl(214 27% 20%);
 /* *** SIDEBAR *** */
 
 .closeMenu {
+  position: relative;
+  z-index: 20;
+  display: none;
 }
 
 .closeMenu__btn {
   background-color: transparent;
   color: white;
-  font-size: 2.5rem;
+  border: none;
+  font-size: 3rem;
   position: absolute;
-  left: 0px;
+  left: 410px;
+  top: -10px;
   cursor: pointer;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+.buttonActive {
+  display: block;
 }
 
 .sidebar {
@@ -67,10 +78,6 @@ $categories--color: hsl(214 27% 20%);
 
 .sidebarActive {
   transform: translateX(0);
-}
-
-.buttonActive {
-  transform: translateX(440px);
 }
 
 @keyframes fadeIn {

@@ -26,7 +26,11 @@
 </div>
 
 <!-- *** SIDEBAR *** -->
-<div class="closeMenu" [ngClass]="{ buttonActive: isOpen }">
+<div
+  class="closeMenu"
+  [ngClass]="{ buttonActive: isOpen }"
+  (click)="toggleSidebar()"
+>
   <button class="closeMenu__btn">
     <i class="bi bi-x"></i>
   </button>
