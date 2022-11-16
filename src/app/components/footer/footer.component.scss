@@ -120,6 +120,11 @@ hr {
   }
 }
 
+.branches__branch * {
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+}
+
 .info {
   display: flex;
   flex-direction: column;
