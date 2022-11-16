@@ -72,6 +72,9 @@ $footer-upper: hsl(214 27% 30%);
   a {
     text-decoration: none;
     font-size: 0.7rem;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
