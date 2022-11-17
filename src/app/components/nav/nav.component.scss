@@ -87,9 +87,8 @@ $btn--orangePressed: hsl(34 99% 60%);
     border: none;
     height: 1px;
     width: 90%;
-    /* Set the hr color */
-    color: hsl(0, 0%, 88%); /* old IE */
-    background-color: hsl(0, 0%, 88%); /* Modern Browsers */
+    color: hsl(0, 0%, 88%);
+    background-color: hsl(0, 0%, 88%);
   }
   &:hover {
     display: flex;
@@ -145,9 +144,6 @@ $btn--orangePressed: hsl(34 99% 60%);
   padding-top: 15px;
   padding-left: 30px;
 }
-
-// .hideAccount__column {
-// }
 
 .hideAccount__title {
   font-size: 0.9rem;
@@ -243,8 +239,6 @@ $btn--orangePressed: hsl(34 99% 60%);
     font-size: 1.4rem;
   }
 }
-
-/* Utilizzare BEM */
 
 .bar__dropdown {
   position: relative;
