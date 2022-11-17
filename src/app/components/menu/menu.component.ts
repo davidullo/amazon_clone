@@ -19,6 +19,6 @@ export class MenuComponent implements OnInit {
     this.isOpen = !this.isOpen;
     console.log(this.count++);
     this.document.body.classList.toggle('stopScroll');
-    this.document.body.classList.toggle('body__overlay');
+    // this.document.body.classList.toggle('body__overlay');
   }
 }

@@ -130,3 +130,16 @@ $categories--color: hsl(214 27% 20%);
     background-color: lightgray;
   }
 }
+
+.overlayActive {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 7;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+}
