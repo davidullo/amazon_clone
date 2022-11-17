@@ -148,6 +148,9 @@ $btn--orangePressed: hsl(34 99% 60%);
   border-top-left-radius: 4px;
   border: none;
   cursor: pointer;
+  &:hover {
+    background-color: hsl(0, 0%, 90%);
+  }
 }
 
 .dropdown__content {
