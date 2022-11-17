@@ -16,5 +16,10 @@ export class MenuComponent implements OnInit {
   toggleSidebar() {
     this.isOpen = !this.isOpen;
     this.document.body.classList.toggle('stopScroll');
+    if (this.isOpen) {
+      console.log('sidebar open');
+    } else {
+      console.log('sidebar closed');
+    }
   }
 }

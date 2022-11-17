@@ -88,8 +88,8 @@ $btn--orangePressed: hsl(34 99% 60%);
     height: 1px;
     width: 90%;
     /* Set the hr color */
-    color: lightgray; /* old IE */
-    background-color: lightgray; /* Modern Browsers */
+    color: hsl(0, 0%, 88%); /* old IE */
+    background-color: hsl(0, 0%, 88%); /* Modern Browsers */
   }
   &:hover {
     display: flex;
@@ -103,25 +103,78 @@ $btn--orangePressed: hsl(34 99% 60%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 18px 0 9px 0;
   button {
-    border: none;
+    border: 1px solid $bar--border;
+    border-radius: 4px;
+    background: hsl(52, 100%, 82%);
+    background: linear-gradient(
+      180deg,
+      hsl(52, 100%, 82%) 0%,
+      hsl(45, 97%, 61%) 100%
+    );
+    padding: 6px 80px;
+    font-size: 0.85rem;
     cursor: pointer;
+    &:hover {
+      background: hsl(52, 100%, 70%);
+      background: linear-gradient(
+        180deg,
+        hsl(52, 100%, 70%) 0%,
+        hsl(45, 97%, 50%) 100%
+      );
+    }
+  }
+  p {
+    font-size: 0.8rem;
+    padding: 6px 0;
+    a {
+      color: hsl(225, 62%, 51%);
+      &:hover {
+        color: orange;
+        text-decoration: underline;
+      }
+    }
   }
 }
 
 .hideAccount__content {
   display: flex;
   align-self: flex-start;
-  gap: 100px;
+  gap: 80px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.hideAccount__column {
+}
+
+.hideAccount__title {
+  font-size: 0.9rem;
 }
 
 .hideAccount__list {
+  padding-top: 6px;
   ul {
     padding: 0;
     li {
       list-style: none;
+      a {
+        color: hsl(0, 0%, 20%);
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        &:hover {
+          color: hsl(30, 100%, 45%);
+          text-decoration: underline;
+        }
+      }
     }
   }
+}
+
+.column--right {
+  border-left: 1px solid hsl(0, 0%, 88%);
+  padding-left: 20px;
 }
 
 .right__orders {
@@ -136,6 +189,14 @@ $btn--orangePressed: hsl(34 99% 60%);
 .right__icon {
   i {
     font-size: 1.8rem;
+  }
+}
+
+.right__bottom {
+  span {
+    display: inline-block;
+    font-size: 0.7rem;
+    color: gray;
   }
 }
 
