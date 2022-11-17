@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -6,22 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
-  constructor() {}
+  constructor(@Inject(DOCUMENT) private document: Document) {}
 
-  ngOnInit(): void {
-    this.testFun();
-  }
+  ngOnInit(): void {}
 
   count = 0;
   isOpen: boolean = false;
 
-  testFun() {
-    console.log(this.count++);
-  }
-
-  // SIDEBAR
+  // SIDEBAR & SCROLL LOCK
   toggleSidebar() {
     this.isOpen = !this.isOpen;
     console.log(this.count++);
+    this.document.body.classList.toggle('stopScroll');
+    this.document.body.classList.toggle('body__overlay');
   }
 }

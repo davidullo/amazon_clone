@@ -26,13 +26,10 @@ import { SideNavDirectionComponent } from './components/menu/side-nav-direction/
     Tiles2Component,
     MiniTileComponent,
     MiniSliderComponent,
-    SideNavDirectionComponent
+    SideNavDirectionComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
