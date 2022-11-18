@@ -27,6 +27,7 @@ export class SliderComponent implements OnInit {
 
   showSlides(n: number) {
     let i;
+    let moveRight = 0;
     let slides = document.getElementsByClassName(
       'mySlides'
     ) as HTMLCollectionOf<HTMLElement>;

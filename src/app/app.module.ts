@@ -13,6 +13,7 @@ import { Tiles2Component } from './components/tiles2/tiles2.component';
 import { MiniTileComponent } from './components/mini-tile/mini-tile.component';
 import { MiniSliderComponent } from './components/mini-slider/mini-slider.component';
 import { SideNavDirectionComponent } from './components/menu/side-nav-direction/side-nav-direction.component';
+import { SliderNewComponent } from './components/slider-new/slider-new.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SideNavDirectionComponent } from './components/menu/side-nav-direction/
     MiniTileComponent,
     MiniSliderComponent,
     SideNavDirectionComponent,
+    SliderNewComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
