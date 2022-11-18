@@ -32,7 +32,28 @@
 .slider__box {
   display: flex;
   flex-direction: column;
+  transition: all 0.5s ease-in-out;
 }
+
+.slideNext {
+  transform: translateX(-1200px);
+}
+.slideNext2 {
+  transform: translateX(-2400px);
+}
+.slideNext3 {
+  transform: translateX(-3000px);
+}
+
+// .slidePrev {
+//   transform: translateX(1200px);
+// }
+// .slidePrev2 {
+//   transform: translateX(2400px);
+// }
+// .slidePrev3 {
+//   transform: translateX(3000px);
+// }
 
 .slider__offer {
   p {

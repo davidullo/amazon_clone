@@ -21,6 +21,7 @@ export class MiniSliderComponent implements OnInit {
 
   wholeNumber: string[] = [];
   fraction: string[] = [];
+  slideToRight: number = 0;
 
   splitNumber() {
     this.details.forEach((detail) => {
@@ -28,5 +29,21 @@ export class MiniSliderComponent implements OnInit {
       this.wholeNumber.push(splitted[0]);
       this.fraction.push(splitted[1]);
     });
+  }
+
+  slidePrev() {
+    this.slideToRight -= 1;
+    if (this.slideToRight < 0) {
+      this.slideToRight = 0;
+    }
+    console.log('slideToRight: ' + this.slideToRight);
+  }
+
+  slideNext() {
+    this.slideToRight += 1;
+    if (this.slideToRight > 3) {
+      this.slideToRight = 3;
+    }
+    console.log('slideToRight: ' + this.slideToRight);
   }
 }
