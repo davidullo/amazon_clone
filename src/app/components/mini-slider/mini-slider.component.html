@@ -1,16 +1,23 @@
-<p>mini-slider works!</p>
 <div class="slider">
   <div class="slider__title">
     <h3>Offerte sui dispositivi Amazon - Settimana del Black Friday</h3>
+    <p><a href="#">Scopri di più</a></p>
   </div>
   <div class="slider__images">
     <div class="slider__box" *ngFor="let detail of details">
-      <img src="{{ detail.image }}" alt="" />
+      <div class="slider__imgContainer">
+        <img src="{{ detail.image }}" alt="" />
+      </div>
       <div class="slider__offer">
-        <p>{{ detail.offer }}</p>
+        <p>{{ detail.offer }}% di sconto</p>
+        <span>{{ detail.type }}</span>
       </div>
       <div class="slider__price">
-        <p>{{ detail.price }}</p>
+        <p>{{ detail.price }}€</p>
+        <span
+          >Consigliato:
+          {{ (detail.price * detail.offer) / 100 + detail.price }}
+        </span>
       </div>
     </div>
   </div>
