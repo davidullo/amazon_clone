@@ -14,11 +14,19 @@ export class MiniSliderComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(this.details);
+    this.splitNumber();
+    console.log(this.wholeNumber);
+    console.log(this.fraction);
   }
 
-  // addImages() {
-  //   for (let i = 1; i < 21; i++) {
-  //     this.images.push(`/assets/img/minislider/${i}.jpg`);
-  //   }
-  // }
+  wholeNumber: string[] = [];
+  fraction: string[] = [];
+
+  splitNumber() {
+    this.details.forEach((detail) => {
+      let splitted = detail.price.toString().split('.');
+      this.wholeNumber.push(splitted[0]);
+      this.fraction.push(splitted[1]);
+    });
+  }
 }

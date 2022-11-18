@@ -11,132 +11,132 @@
     "offer": 40,
     "image": "../../../assets/img/minislider/2.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 36.99
   },
   {
     "id": 3,
     "offer": 21,
     "image": "../../../assets/img/minislider/3.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 87.99
   },
   {
     "id": 4,
     "offer": 65,
     "image": "../../../assets/img/minislider/4.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 21.99
   },
   {
     "id": 5,
     "offer": 31,
     "image": "../../../assets/img/minislider/5.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 7.99
   },
   {
     "id": 6,
     "offer": 24,
     "image": "../../../assets/img/minislider/6.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 14.99
   },
   {
     "id": 7,
     "offer": 48,
     "image": "../../../assets/img/minislider/7.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 64.99
   },
   {
     "id": 7,
     "offer": 59,
     "image": "../../../assets/img/minislider/8.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 94.99
   },
   {
     "id": 8,
     "offer": 71,
     "image": "../../../assets/img/minislider/9.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 51.99
   },
   {
     "id": 9,
     "offer": 11,
     "image": "../../../assets/img/minislider/10.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 86.99
   },
   {
     "id": 10,
     "offer": 32,
     "image": "../../../assets/img/minislider/11.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 48.99
   },
   {
     "id": 11,
     "offer": 22,
     "image": "../../../assets/img/minislider/12.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 22.99
   },
   {
     "id": 12,
     "offer": 12,
     "image": "../../../assets/img/minislider/13.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 12.99
   },
   {
     "id": 13,
     "offer": 59,
     "image": "../../../assets/img/minislider/14.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 55.99
   },
   {
     "id": 14,
     "offer": 41,
     "image": "../../../assets/img/minislider/15.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 76.99
   },
   {
     "id": 15,
     "offer": 29,
     "image": "../../../assets/img/minislider/16.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 65.99
   },
   {
     "id": 16,
     "offer": 11,
     "image": "../../../assets/img/minislider/17.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 11.99
   },
   {
     "id": 17,
     "offer": 8,
     "image": "../../../assets/img/minislider/18.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 9.99
   },
   {
     "id": 18,
     "offer": 40,
     "image": "../../../assets/img/minislider/19.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 4.99
   },
   {
     "id": 19,
     "offer": 30,
     "image": "../../../assets/img/minislider/20.jpg",
     "type": "Black Friday",
-    "price": 24.99
+    "price": 124.99
   }
 ]

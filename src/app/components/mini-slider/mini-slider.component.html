@@ -4,7 +4,7 @@
     <p><a href="#">Scopri di più</a></p>
   </div>
   <div class="slider__images">
-    <div class="slider__box" *ngFor="let detail of details">
+    <div class="slider__box" *ngFor="let detail of details; let i = index">
       <div class="slider__imgContainer">
         <img src="{{ detail.image }}" alt="" />
       </div>
@@ -13,11 +13,16 @@
         <span>{{ detail.type }}</span>
       </div>
       <div class="slider__price">
-        <p>{{ detail.price }}€</p>
-        <span
+        <div class="actualPrice">
+          <span class="wholeNumber">{{ wholeNumber[i] }}</span>
+          <span class="fraction">{{ fraction[i] }}€</span>
+        </div>
+        <span class="suggestedText"
           >Consigliato:
-          {{ (detail.price * detail.offer) / 100 + detail.price }}
-        </span>
+          <span class="originalPrice"
+            >{{ (detail.price * detail.offer) / 100 + detail.price }}
+          </span></span
+        >
       </div>
     </div>
   </div>

@@ -50,11 +50,37 @@
 }
 
 .slider__price {
-  span {
-    display: inline-block;
-    font-size: 0.8rem;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 106px;
-  }
+  font-weight: bold;
+}
+
+.actualPrice {
+  display: flex;
+  align-content: flex-start;
+  gap: 2px;
+  color: black;
+}
+
+.wholeNumber {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.fraction {
+  font-size: 0.7rem;
+  padding-top: 6px;
+  font-weight: 400;
+}
+
+.suggestedText {
+  display: inline-block;
+  font-size: 0.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 112px;
+  color: rgb(79, 79, 79);
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  font-weight: 500;
 }
