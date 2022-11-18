@@ -5,6 +5,7 @@
   width: 100%;
   max-width: 1460px;
   padding: 25px;
+  position: relative;
 }
 
 .slider__title {
@@ -27,12 +28,25 @@
   justify-content: flex-start;
   overflow-x: hidden;
   gap: 0 20px;
+  &:hover ~ .arrow a {
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: black;
+  }
+  &:hover ~ .slider__prev a {
+    border-right: 1px solid lightgray;
+  }
+  &:hover ~ .slider__next a {
+    border-left: 1px solid lightgray;
+  }
 }
 
 .slider__box {
   display: flex;
   flex-direction: column;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .slideNext {
@@ -45,15 +59,49 @@
   transform: translateX(-3000px);
 }
 
-// .slidePrev {
-//   transform: translateX(1200px);
-// }
-// .slidePrev2 {
-//   transform: translateX(2400px);
-// }
-// .slidePrev3 {
-//   transform: translateX(3000px);
-// }
+.slider__prev {
+  position: absolute;
+  left: 20px;
+  top: 40%;
+  display: block;
+  a {
+    color: transparent;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: white;
+      border-right: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      color: black;
+    }
+  }
+}
+
+.slider__next {
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  display: block;
+  a {
+    color: transparent;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: white;
+      border-left: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      color: black;
+    }
+  }
+}
 
 .slider__offer {
   p {

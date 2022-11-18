@@ -3,5 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 110px;
+  app-slider {
+    margin: 0 0 120px 0;
+  }
+  * {
+    margin: 20px 0;
+  }
 }
