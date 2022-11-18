@@ -1,0 +1,17 @@
+.slideshow__container {
+  position: relative;
+}
+
+.slideshow {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  height: 600px;
+  width: 1500px;
+  overflow-x: hidden;
+}
+
+.slideshow__slide {
+  display: inline-block;
+  width: 100%;
+}
