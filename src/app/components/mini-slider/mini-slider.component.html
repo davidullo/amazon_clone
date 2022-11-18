@@ -6,7 +6,7 @@
   <div class="slider__images">
     <div
       class="slider__box"
-      *ngFor="let detail of details; let i = index"
+      *ngFor="let detail of shuffledArray; let i = index"
       [ngClass]="{
         slideNext: slideToRight == 1,
         slideNext2: slideToRight == 2,
