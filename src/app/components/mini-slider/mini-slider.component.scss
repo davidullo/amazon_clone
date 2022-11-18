@@ -34,6 +34,23 @@
   flex-direction: column;
 }
 
+.slider__offer {
+  p {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 6px;
+    margin-right: 4px;
+    color: white;
+    background-color: hsl(347, 100%, 32%);
+    font-size: 0.8rem;
+  }
+  span {
+    color: hsl(347, 100%, 32%);
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}
+
 .slider__imgContainer {
   display: flex;
   align-items: center;
@@ -56,7 +73,7 @@
 .actualPrice {
   display: flex;
   align-content: flex-start;
-  gap: 2px;
+  gap: 0.5px;
   color: black;
 }
 
@@ -67,7 +84,7 @@
 
 .fraction {
   font-size: 0.7rem;
-  padding-top: 6px;
+  padding-top: 4px;
   font-weight: 400;
 }
 
