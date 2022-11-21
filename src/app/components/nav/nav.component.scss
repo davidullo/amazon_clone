@@ -211,6 +211,9 @@ $btn--orangePressed: hsl(34 99% 60%);
   height: 40px;
   width: 60%;
   border-radius: 4px;
+  &:focus-within {
+    outline: 3px solid orange;
+  }
 }
 
 .bar {
@@ -220,6 +223,9 @@ $btn--orangePressed: hsl(34 99% 60%);
 
 .bar__input {
   width: 200%;
+  input {
+    padding-left: 10px;
+  }
 }
 
 .bar__search {
