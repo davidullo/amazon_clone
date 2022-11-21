@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
   constructor() {}
 
+  isOpen: boolean = false;
+
   toggleDropdown() {
     let dropdownContent = document.querySelector('.dropdown__content');
     let dropdownButton = document.querySelector('#dropdown__button');
@@ -15,6 +17,11 @@ export class NavComponent implements OnInit {
       dropdownContent?.classList.toggle('dropdown__block');
       dropdownButton?.classList.toggle('dropdown__click');
     });
+  }
+
+  switchOverlay() {
+    this.isOpen = !this.isOpen;
+    console.log('overlay' + this.isOpen);
   }
 
   ngOnInit(): void {

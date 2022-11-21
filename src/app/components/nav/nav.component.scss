@@ -25,6 +25,8 @@ $btn--orangePressed: hsl(34 99% 60%);
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
+  z-index: 10;
+  position: relative;
 }
 
 .left {
@@ -314,4 +316,17 @@ input {
 
 a {
   text-decoration: none;
+}
+
+.overlayActive {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  height: 183.5%;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
 }

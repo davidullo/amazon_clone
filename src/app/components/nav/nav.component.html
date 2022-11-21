@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="bar__input">
-        <input type="text" />
+        <input type="text" (focus)="switchOverlay()" />
       </div>
       <div class="bar__search">
         <i class="bi bi-search"></i>
@@ -139,3 +139,8 @@
     </div>
   </div>
 </div>
+<div
+  class="overlay"
+  [ngClass]="{ overlayActive: isOpen }"
+  (click)="switchOverlay()"
+></div>
