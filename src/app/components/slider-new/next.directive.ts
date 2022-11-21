@@ -4,31 +4,9 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
   selector: '[appNext]',
 })
 export class NextDirective {
-  constructor(private el: ElementRef) {
-    console.log(this.el.nativeElement);
-  }
-
-  percentage = 0;
+  constructor(private el: ElementRef) {}
 
   @HostListener('click')
-
-  // nextFunction() {
-  //   let elm =
-  //     this.el.nativeElement.parentElement.parentElement.children[0].children;
-
-  //   if (this.percentage >= (elm.length - 1) * 100) {
-  //     this.percentage = 0;
-  //   } else {
-  //     this.percentage += 100;
-  //   }
-
-  //   console.log(this.percentage + ' before loop');
-  //   for (let item of elm) {
-  //     item.style.transform = `translateX(-${this.percentage}%)`;
-  //   }
-  // }
-
-  // **** Prova 2 ****
   nextFunction() {
     let elm =
       this.el.nativeElement.parentElement.parentElement.children[0].childNodes;
@@ -48,10 +26,4 @@ export class NextDirective {
       }
     }, 250);
   }
-
-  // **** Prova 3 ****
-  // nextFunction() {
-  //   let elm = this.el.nativeElement.parentElement.parentElement.children[0];
-  //   console.log(elm);
-  // }
 }
