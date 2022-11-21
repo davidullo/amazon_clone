@@ -14,6 +14,8 @@ import { MiniTileComponent } from './components/mini-tile/mini-tile.component';
 import { MiniSliderComponent } from './components/mini-slider/mini-slider.component';
 import { SideNavDirectionComponent } from './components/menu/side-nav-direction/side-nav-direction.component';
 import { SliderNewComponent } from './components/slider-new/slider-new.component';
+import { NextDirective } from './components/slider-new/next.directive';
+import { PrevDirective } from './components/slider-new/prev.directive';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { SliderNewComponent } from './components/slider-new/slider-new.component
     MiniSliderComponent,
     SideNavDirectionComponent,
     SliderNewComponent,
+    NextDirective,
+    PrevDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

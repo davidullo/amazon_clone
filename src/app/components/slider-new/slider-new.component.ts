@@ -3,13 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-slider-new',
   templateUrl: './slider-new.component.html',
-  styleUrls: ['./slider-new.component.scss']
+  styleUrls: ['./slider-new.component.scss'],
 })
 export class SliderNewComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  startSlider = 0;
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
+  ngAfterViewInit() {}
 }
